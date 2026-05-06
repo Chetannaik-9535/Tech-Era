@@ -1,0 +1,31 @@
+.NotFound-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  width: 30vw;
+  height: 35vh;
+  margin: 15px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: black;
+  font-weight: bolder;
+}
+
+.decription {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: black;
+  font-weight: bolder;
+}
+
+.Link {
+  text-decoration: none;
+  margin: none;
+}

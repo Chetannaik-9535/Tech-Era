@@ -1,0 +1,114 @@
+.AppContainer {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100%;
+}
+
+.CodeLanguageContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  padding-left: 5%;
+  margin: 5%;
+}
+
+.heading {
+  font-family: 'Lobster';
+  font-size: 35px;
+  color: #000000;
+  font-weight: bolder;
+  padding-left: 5%;
+  padding-top: 20px;
+}
+
+.courseList-container {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo-image {
+  width: 40px;
+  margin-bottom: 10px;
+}
+
+.list-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin: 10px;
+  margin-bottom: 20px;
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+}
+
+.link {
+  text-decoration: none;
+  margin: none;
+}
+
+.corse-name {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #475569;
+  font-weight: bolder;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.failure-img {
+  height: 35vh;
+  width: 45vw;
+  margin: 15px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #000000;
+  font-weight: bolder;
+  margin: 15px;
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #475569;
+  font-weight: bolder;
+  margin: 10px;
+}
+
+.button {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: bolder;
+  background-color: #4656a1;
+  background-size: cover;
+  height: 40px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+}
